@@ -13,3 +13,7 @@ jobs:
       
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          firstGreeting: "Shinji"
+          secondGreeting: "Taito"
+          thirdGreeting: "Hiromasa"
